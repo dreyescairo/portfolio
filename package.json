@@ -1,0 +1,19 @@
+{
+  "name": "drcwebdevportfolio",
+  "version": "1.0.0",
+  "description": "A portfolio of my works",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreyescairo/portfolio.git"
+  },
+  "author": "David Reyes-Cairo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreyescairo/portfolio/issues"
+  },
+  "homepage": "https://github.com/dreyescairo/portfolio#readme"
+}
