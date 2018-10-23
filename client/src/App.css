@@ -34,3 +34,25 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.logoImage {
+  width: 35%;
+  position: absolute;
+  left: 32.5%;
+}
