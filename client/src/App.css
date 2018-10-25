@@ -56,3 +56,20 @@ body {
   position: absolute;
   left: 32.5%;
 }
+
+.logoHeader {
+  padding: 50px 0px;
+}
+
+/* 
+.svgLogo {
+  position: absolute;
+} */
+
+.card {
+  width: 400px;
+}
+
+nav {
+  background-color: #0d79b8;
+}
