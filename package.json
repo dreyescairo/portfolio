@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/dreyescairo/portfolio/issues"
   },
-  "homepage": "https://github.com/dreyescairo/portfolio#readme"
+  "homepage": "https://github.com/dreyescairo/portfolio#readme",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
 }
