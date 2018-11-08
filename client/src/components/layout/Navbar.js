@@ -4,9 +4,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav>
-        <div className="nav-wrapper">
-          <a href="#" className="brand-logo">
-            Logo
+        <div className="nav-wrapper light-blue darken-1">
+          <a href="#" className="brand-logo center">
+            David RC
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>

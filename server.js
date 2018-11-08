@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-
+const bodyParser = require("body-parser");
+//const passport = require("passport");
 //*************************ROUTES GO HERE************************* */
 
 //*************************EXPRESS INIT()************************* */
@@ -17,9 +18,12 @@ app.use(bodyParser.json());
 //*************************DATABASE************************* */
 
 //dbconfig either from the file locally or a env variable
+
 const db = require("./config/keys").mongoURI || process.env.MONGOURI;
 
 //connect to mongodb
+
+
 mongoose
   .connect(
     db,
@@ -30,10 +34,10 @@ mongoose
 
 //*************************PASSPORT************************* */
 
-//passport middleware
-app.use(passport.initialize());
-//passport config
-require("./config/passport.js")(passport);
+// //passport middleware
+// app.use(passport.initialize());
+// //passport config
+// require("./config/passport.js")(passport);
 
 const port = process.env.PORT || 5000;
 
